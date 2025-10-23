@@ -129,10 +129,10 @@ const TicketScreen = () => {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigation.navigate('TicketScreen' as never)}>
-          <Icon name="ticket" size={22} color="#FF7A00" />
+          <Icon name="ticket" size={22} color="#fff" />
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('ProfileScreen' as never)}>
           <Icon name="person-outline" size={22} color="#fff" />
         </TouchableOpacity>
       </View>

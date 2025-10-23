@@ -6,6 +6,7 @@ import DetailLabuanBajoScreen from '../screens/DetailLabuanBajoScreen';
 import TicketScreen from '../screens/TicketScreen';
 import DetailVeneziaScreen from '../screens/DetailVeneziaScreen';
 import DetailAmsterdamScreen from '../screens/DetailAmsterdamScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 
 // Inisialisasi Stack Navigator
 const Stack = createNativeStackNavigator();
@@ -39,7 +40,10 @@ const AppNavigator = () => {
 
       {/* Detail Screen Amsterdam) */}
       <Stack.Screen name="DetailAmsterdamScreen" component={DetailAmsterdamScreen} />
-      
+
+      {/* Detail Profil Screen) */}
+      <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
+
       {/* Detail Screen Ticket Screen) */}
       <Stack.Screen name="TicketScreen" component={TicketScreen} />
     </Stack.Navigator>

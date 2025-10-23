@@ -141,7 +141,7 @@ const HomeScreen = () => {
           <Icon name="ticket-outline" size={22} color="#fff" />
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('ProfileScreen' as never)}>
           <Icon name="person-outline" size={22} color="#fff" />
         </TouchableOpacity>
       </View>
